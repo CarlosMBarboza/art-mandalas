@@ -783,7 +783,7 @@ button:not(:disabled),
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.7)
     ),
-    url("/public/img/Logo-01.jpg");
+    url("./imagen/Img/Logo-01.jpg");
   background-position: 50%;
   background-size: cover;
   position: relative;

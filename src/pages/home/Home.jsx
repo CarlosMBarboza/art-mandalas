@@ -1,15 +1,16 @@
 import '../../index.css'; // Asegúrate de importar el CSS
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa Bootstrap
+import logoHome from '../../imagen/Img/LogoHome.jpg'; // Asegúrate de importar la imagen
 
 const Home = () => {
   return (
     <div className="container home">
       <div className="row align-items-center">
         <div className="col-md-4">
-          <img src="../../../public/img/LogoHome.jpg" alt="Descripción de la imagen" className="img-fluid rounded" />
+          <img src={logoHome} alt="Descripción de la imagen" className="img-fluid rounded" />
         </div>
         <div className="col-md-8">
-        <h1 className="emprendimiento-title">Bienestar Holístico</h1>
+          <h1 className="emprendimiento-title">Bienestar Holístico</h1>
           <p className="emprendimiento-description">
             Art.Mandalas se especializa en ofrecer un enfoque integral hacia el bienestar y la sanación holística, combinando diversas prácticas que fomentan el crecimiento personal y la conexión espiritual.
           </p>
@@ -21,8 +22,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      </div>
-  )
+    </div>
+  );
 }
 
 export default Home;
