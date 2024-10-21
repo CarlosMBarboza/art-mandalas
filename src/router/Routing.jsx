@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {  Routes, Route } from "react-router-dom"
 import Home from "../pages/home/Home"
 import About from "../pages/about/About"
 import Product from "../pages/product/Product"
@@ -7,7 +7,6 @@ import NavbarAndFooter from "../layout/NavbarAndFooter"
 const Routing = () => {
   return (
     <>
-      <BrowserRouter>
         <NavbarAndFooter>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -16,7 +15,6 @@ const Routing = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </NavbarAndFooter>
-      </BrowserRouter>
     </>
   )
 }

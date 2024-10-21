@@ -4,7 +4,7 @@ const CaritoCompra = () => {
   return (
     <div className="col-md-3 d-flex justify-content-end">
             <div className="carrito position-relative">
-              <img className="img-fluid" src="../../imagen/Img/carrito.png" alt="imagen carrito" />
+              <img className="img-fluid" src="../../../src/imagen/Img/Carrito.png" alt="imagen carrito" />
               <div id="carrito" className="bg-white p-3 position-absolute" style={{ display: 'none' }}>
                 <p className="text-center">El carrito está vacío</p>
                 <table className="w-100 table">
