@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark mt-1 py-5">
       <div className="container-xl">
-        <p className="text-white text-center fs-4 mt-1 m-md-0">Joyeria-Cm - Todos los derechos Reservados</p>
+        <p className="text-white text-center fs-4 mt-1 m-md-0">Art.Mandalas - Todos los derechos Reservados</p>
         <div className="text-center mt-3">
           <a 
             href="https://www.instagram.com" 

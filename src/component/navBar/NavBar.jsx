@@ -1,7 +1,6 @@
 
-import CaritoCompra from '../Carito/CaritoCompra';
 import LinkNav from './navLinks/LinkNav';
-import '../../index.css';
+import '../../../src/index.css';
 
 const NavBar = () => {
   return (
@@ -11,7 +10,6 @@ const NavBar = () => {
           <div className="col-12 col-md-3 text-center">
             <h2 className='text-white text-uppercase m-md-0'>Art. <br />Mandalas</h2>
           </div>
-        <CaritoCompra/>
         <LinkNav/>
         </div>
       </div>

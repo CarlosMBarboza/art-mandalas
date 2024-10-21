@@ -20,14 +20,14 @@ const Cards = () => {
                 <h3 className="text-black fs-4 fw-bold text-uppercase text-center">
                   {item.tipo}
                 </h3>
-                <p className="fw-black text-primary fs-3 text-center">
-                  ${item.precio.toFixed(2)}
-                </p>
-                <div className="mt-auto">
-                  <button type="button" className="btn btn-dark w-100">
-                    Agregar al Carrito
-                  </button>
-                </div>
+                <a
+                  href="https://www.whatsapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary mt-auto"
+                >
+                  Lista de precio
+                </a>
               </div>
             </div>
           </div>
