@@ -4,8 +4,8 @@ export const navLinks = [
   { name: "Contacto", path: "/contact" },
   { name: "Tienda", path: "/product" },
   {
-    name: "Conose Más",
-    path: "/conoseMas",
+    name: "Conoce Más",
+    path: "/conoceMas",
     subLinks: [
       { name: "Registro Akáshicos", path: "/conoseMas/registroAkashicos" },
       { name: "Péndulo", path: "/conoseMas/pendulo" },
