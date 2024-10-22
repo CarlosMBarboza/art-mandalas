@@ -4,11 +4,11 @@ import About from "../pages/about/About";
 import Product from "../pages/product/Product";
 import Contact from "../pages/contact/Contact";
 import NavbarAndFooter from "../layout/NavbarAndFooter";
-import ConoseMas from "../pages/conoseMas/ConoseMas";
-import RegistroAkashicos from "../pages/conoseMas/RegistroAkashicos";
-import Pendulo from "../pages/conoseMas/Pendulo";
-import Reiki from "../pages/conoseMas/Reiki";
-import ConstelacionesFamiliares from "../pages/conoseMas/ConstelacionesFamiliares";
+import ConoceMas from "../pages/conocemas/ConoceMas";
+import RegistroAkashicos from "../pages/conocemas/RegistroAkashicos";
+import Pendulo from "../pages/conocemas/Pendulo";
+import Reiki from "../pages/conocemas/Reiki";
+import ConstelacionesFamiliares from "../pages/conocemas/ConstelacionesFamiliares";
 
 const Routing = () => {
   return (
@@ -20,7 +20,7 @@ const Routing = () => {
         <Route path="/contact" element={<Contact />} />
 
         {/* Rutas anidadas para Conose Más */}
-        <Route path="/conoseMas" element={<ConoseMas />}>
+        <Route path="/conoceMas" element={<ConoceMas />}>
           <Route path="registroAkashicos" element={<RegistroAkashicos />} />
           <Route path="pendulo" element={<Pendulo />} />
           <Route path="reiki" element={<Reiki />} />

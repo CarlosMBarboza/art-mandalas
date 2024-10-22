@@ -7,10 +7,10 @@ export const navLinks = [
     name: "Conoce Más",
     path: "/conoceMas",
     subLinks: [
-      { name: "Registro Akáshicos", path: "/conoseMas/registroAkashicos" },
-      { name: "Péndulo", path: "/conoseMas/pendulo" },
-      { name: "Reiki", path: "/conoseMas/reiki" },
-      { name: "Constelaciones", path: "/conoseMas/constelacionesFamiliares" },
+      { name: "Registro Akáshicos", path: "/conocemas/registroAkashicos" },
+      { name: "Péndulo", path: "/conocemas/pendulo" },
+      { name: "Reiki", path: "/conocemas/reiki" },
+      { name: "Constelaciones", path: "/conocemas/constelacionesFamiliares" },
     ],
   },
 ];
