@@ -495,6 +495,43 @@ button:not(:disabled),
     background-position-x: 1rem;
   }
 }
+/* Estilos generales */
+nav {
+  position: relative;
+}
+
+.nav-item {
+  position: relative;
+}
+
+/* El submenú está oculto por defecto */
+.dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  z-index: 700;
+  min-width: 150px; /* Asegura un ancho mínimo consistente */
+}
+
+/* Mostrar el submenú al hacer hover en el elemento padre */
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+/* Estilos de los enlaces dentro del submenú */
+.dropdown a {
+  color: white;
+  padding: 5px 0;
+  text-decoration: none;
+  display: block;
+}
+
+/* Efecto de hover en los enlaces del submenú */
+.dropdown a:hover {
+  color: #ffcc00;
+}
 
 
 
