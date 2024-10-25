@@ -4,7 +4,7 @@ import About from "../pages/about/About";
 import Product from "../pages/product/Product";
 import Contact from "../pages/contact/Contact";
 import NavbarAndFooter from "../layout/NavbarAndFooter";
-import ConoceMas from "../pages/conocemas/ConoceMas";
+import ConoceMas from "../pages/conoceMas/ConoscaMas";
 import RegistroAkashicos from "../pages/conocemas/RegistroAkashicos";
 import Pendulo from "../pages/conocemas/Pendulo";
 import Reiki from "../pages/conocemas/Reiki";

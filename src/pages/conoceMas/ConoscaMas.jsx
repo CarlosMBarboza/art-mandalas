@@ -1,6 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 
-const TerapiasAlternativas = () => {
+const ConoscaMas = () => {
   return (
     <div className="container m-5">
       <Outlet />
@@ -46,9 +46,8 @@ const TerapiasAlternativas = () => {
           </p>
         </div>
       </div>
-
     </div>
   );
-}
+};
 
-export default TerapiasAlternativas;
+export default ConoscaMas;
